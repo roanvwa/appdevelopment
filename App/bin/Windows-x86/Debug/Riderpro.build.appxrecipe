@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SALOMONS-HP</Machine>
+    <WindowsUser>Henk</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myapp51368e</PackageIdentityName>
+    <IntermediateOutputPath>F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\build\windows\debug\x86\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\images\skholland_riderpro_logo.png">
+      <PackagePath>www\images\skholland_riderpro_logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\android\icon-36-ldpi.png">
+      <PackagePath>www\res\icons\android\icon-36-ldpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\android\icon-48-mdpi.png">
+      <PackagePath>www\res\icons\android\icon-48-mdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\android\icon-72-hdpi.png">
+      <PackagePath>www\res\icons\android\icon-72-hdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\android\icon-96-xhdpi.png">
+      <PackagePath>www\res\icons\android\icon-96-xhdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-40-2x.png">
+      <PackagePath>www\res\icons\ios\icon-40-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-40.png">
+      <PackagePath>www\res\icons\ios\icon-40.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-50-2x.png">
+      <PackagePath>www\res\icons\ios\icon-50-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-50.png">
+      <PackagePath>www\res\icons\ios\icon-50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-57-2x.png">
+      <PackagePath>www\res\icons\ios\icon-57-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-57.png">
+      <PackagePath>www\res\icons\ios\icon-57.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-60-2x.png">
+      <PackagePath>www\res\icons\ios\icon-60-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-60-3x.png">
+      <PackagePath>www\res\icons\ios\icon-60-3x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-60.png">
+      <PackagePath>www\res\icons\ios\icon-60.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-72-2x.png">
+      <PackagePath>www\res\icons\ios\icon-72-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-72.png">
+      <PackagePath>www\res\icons\ios\icon-72.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-76-2x.png">
+      <PackagePath>www\res\icons\ios\icon-76-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-76.png">
+      <PackagePath>www\res\icons\ios\icon-76.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-small-2x.png">
+      <PackagePath>www\res\icons\ios\icon-small-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\ios\icon-small.png">
+      <PackagePath>www\res\icons\ios\icon-small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Square150x150Logo.scale-100.png">
+      <PackagePath>www\res\icons\windows\Square150x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Square150x150Logo.scale-240.png">
+      <PackagePath>www\res\icons\windows\Square150x150Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Square30x30Logo.scale-100.png">
+      <PackagePath>www\res\icons\windows\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Square310x310Logo.scale-100.png">
+      <PackagePath>www\res\icons\windows\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Square44x44Logo.scale-240.png">
+      <PackagePath>www\res\icons\windows\Square44x44Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Square70x70Logo.scale-100.png">
+      <PackagePath>www\res\icons\windows\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Square71x71Logo.scale-240.png">
+      <PackagePath>www\res\icons\windows\Square71x71Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\StoreLogo.scale-100.png">
+      <PackagePath>www\res\icons\windows\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\StoreLogo.scale-240.png">
+      <PackagePath>www\res\icons\windows\StoreLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Wide310x150Logo.scale-100.png">
+      <PackagePath>www\res\icons\windows\Wide310x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\windows\Wide310x150Logo.scale-240.png">
+      <PackagePath>www\res\icons\windows\Wide310x150Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\wp8\ApplicationIcon.png">
+      <PackagePath>www\res\icons\wp8\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\icons\wp8\Background.png">
+      <PackagePath>www\res\icons\wp8\Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\android\screen-hdpi-landscape.png">
+      <PackagePath>www\res\screens\android\screen-hdpi-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\android\screen-hdpi-portrait.png">
+      <PackagePath>www\res\screens\android\screen-hdpi-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\android\screen-ldpi-landscape.png">
+      <PackagePath>www\res\screens\android\screen-ldpi-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\android\screen-ldpi-portrait.png">
+      <PackagePath>www\res\screens\android\screen-ldpi-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\android\screen-mdpi-landscape.png">
+      <PackagePath>www\res\screens\android\screen-mdpi-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\android\screen-mdpi-portrait.png">
+      <PackagePath>www\res\screens\android\screen-mdpi-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\android\screen-xhdpi-landscape.png">
+      <PackagePath>www\res\screens\android\screen-xhdpi-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\android\screen-xhdpi-portrait.png">
+      <PackagePath>www\res\screens\android\screen-xhdpi-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-ipad-landscape-2x.png">
+      <PackagePath>www\res\screens\ios\screen-ipad-landscape-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-ipad-landscape.png">
+      <PackagePath>www\res\screens\ios\screen-ipad-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-ipad-portrait-2x.png">
+      <PackagePath>www\res\screens\ios\screen-ipad-portrait-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-ipad-portrait.png">
+      <PackagePath>www\res\screens\ios\screen-ipad-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-iphone-568h-2x.png">
+      <PackagePath>www\res\screens\ios\screen-iphone-568h-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-iphone-landscape-736h.png">
+      <PackagePath>www\res\screens\ios\screen-iphone-landscape-736h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-iphone-portrait-2x.png">
+      <PackagePath>www\res\screens\ios\screen-iphone-portrait-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-iphone-portrait-667h.png">
+      <PackagePath>www\res\screens\ios\screen-iphone-portrait-667h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-iphone-portrait-736h.png">
+      <PackagePath>www\res\screens\ios\screen-iphone-portrait-736h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\ios\screen-iphone-portrait.png">
+      <PackagePath>www\res\screens\ios\screen-iphone-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\windows\SplashScreen.scale-100.png">
+      <PackagePath>www\res\screens\windows\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\windows\SplashScreen.scale-240.png">
+      <PackagePath>www\res\screens\windows\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\windows\SplashScreenPhone.scale-240.png">
+      <PackagePath>www\res\screens\windows\SplashScreenPhone.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular-csp.css">
+      <PackagePath>www\angular\angular-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\mobile-angular-ui-base.css">
+      <PackagePath>www\css\mobile-angular-ui-base.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\mobile-angular-ui-base.min.css">
+      <PackagePath>www\css\mobile-angular-ui-base.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\mobile-angular-ui-desktop.css">
+      <PackagePath>www\css\mobile-angular-ui-desktop.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\mobile-angular-ui-desktop.min.css">
+      <PackagePath>www\css\mobile-angular-ui-desktop.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\mobile-angular-ui-hover.css">
+      <PackagePath>www\css\mobile-angular-ui-hover.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\mobile-angular-ui-hover.min.css">
+      <PackagePath>www\css\mobile-angular-ui-hover.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\mobile-angular-ui-migrate.css">
+      <PackagePath>www\css\mobile-angular-ui-migrate.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\css\mobile-angular-ui-migrate.min.css">
+      <PackagePath>www\css\mobile-angular-ui-migrate.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular-local-storage.js">
+      <PackagePath>www\angular\angular-local-storage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular-local-storage.min.js">
+      <PackagePath>www\angular\angular-local-storage.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular-route.min.js">
+      <PackagePath>www\angular\angular-route.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular-sanitize.min.js">
+      <PackagePath>www\angular\angular-sanitize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular.js">
+      <PackagePath>www\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular.min.js">
+      <PackagePath>www\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\index.js">
+      <PackagePath>www\angular\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\controllers\articleController.js">
+      <PackagePath>www\controllers\articleController.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\controllers\ArticlesFactory.js">
+      <PackagePath>www\controllers\ArticlesFactory.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\controllers\MenuController.js">
+      <PackagePath>www\controllers\MenuController.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\data\articles.js">
+      <PackagePath>www\data\articles.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\jquery-1.11.3.min.js">
+      <PackagePath>www\js\jquery-1.11.3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\jquery-2.1.4.min.js">
+      <PackagePath>www\js\jquery-2.1.4.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.core.js">
+      <PackagePath>www\js\mobile-angular-ui.core.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.core.min.js">
+      <PackagePath>www\js\mobile-angular-ui.core.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.gestures.js">
+      <PackagePath>www\js\mobile-angular-ui.gestures.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.gestures.min.js">
+      <PackagePath>www\js\mobile-angular-ui.gestures.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.js">
+      <PackagePath>www\js\mobile-angular-ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.migrate.js">
+      <PackagePath>www\js\mobile-angular-ui.migrate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.migrate.min.js">
+      <PackagePath>www\js\mobile-angular-ui.migrate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.min.js">
+      <PackagePath>www\js\mobile-angular-ui.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\scripts\app.js">
+      <PackagePath>www\scripts\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\scripts\lazyload.js">
+      <PackagePath>www\scripts\lazyload.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular-route.min.js.map">
+      <PackagePath>www\angular\angular-route.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular.min.js.map">
+      <PackagePath>www\angular\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.core.min.js.map">
+      <PackagePath>www\js\mobile-angular-ui.core.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.gestures.min.js.map">
+      <PackagePath>www\js\mobile-angular-ui.gestures.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.migrate.min.js.map">
+      <PackagePath>www\js\mobile-angular-ui.migrate.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\mobile-angular-ui.min.js.map">
+      <PackagePath>www\js\mobile-angular-ui.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\angular.min.js.gzip">
+      <PackagePath>www\angular\angular.min.js.gzip</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\bower.json">
+      <PackagePath>www\angular\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\package.json">
+      <PackagePath>www\angular\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\js\bower.json">
+      <PackagePath>www\js\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\angular\README.md">
+      <PackagePath>www\angular\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\fonts\fontawesome-webfont.woff2">
+      <PackagePath>www\fonts\fontawesome-webfont.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\views\article.html">
+      <PackagePath>www\views\article.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\views\articles.html">
+      <PackagePath>www\views\articles.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\views\home.html">
+      <PackagePath>www\views\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\views\sidebar.html">
+      <PackagePath>www\views\sidebar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\native\android\ant.properties">
+      <PackagePath>www\res\native\android\ant.properties</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\www\res\screens\wp8\SplashScreenImage.jpg">
+      <PackagePath>www\res\screens\wp8\SplashScreenImage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Apps\Projects\riderpro_vs_angular\Riderpro\Riderpro\platforms\windows\build\windows\debug\x86\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

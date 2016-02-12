@@ -1,0 +1,19 @@
+<div class="scrollable">
+  <h4 class="scrollable-header text-center">{{articlesCtrl.categoryName}}</h4>  
+
+   
+  <div class="scrollable-content articles container-fluid">
+      <div class="row">
+          <div if="art_{{article.ObjectID}}" ng-repeat="article in articlesCtrl.articles" class="col-xs-12 col-sm-6 article">
+              <a ng-href="#/article/{{articlesCtrl.categoryID}}/{{article.objectID}}/">
+                  <div>
+                      <span class="img">
+                          <img bn-lazy-src="{{host}}{{article.specs['IMG'].value[0]}}" />
+                      </span>
+                      {{article.specs['CONTENT'].value}}
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>

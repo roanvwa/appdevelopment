@@ -1,0 +1,80 @@
+﻿body {
+}
+.app-name{
+
+    background-color:rgba(30, 26, 25, 1);
+    border-bottom:3px solid rgba(191, 153, 99, 1);
+
+}
+.navbar-app {
+    background-color:rgba(52, 48, 48, 1);
+    color:#FFF;
+}
+
+.btn ,.navbar-app .btn ,.navbar-app .btn:hover{
+     color:#FFF;
+}
+
+h4.scrollable-header {
+    background-color:rgba(191, 153, 99, 1);
+    color:#FFF;
+    font-size:0.8em;
+    line-height:24px;
+    margin-bottom:0px;
+   
+}
+h4.scrollable-header * {
+     color:#FFF;
+}
+
+.app{
+    background-color:#FFF;
+}
+
+.articles .row *{
+    color:#000;
+}
+
+.article {
+    background:#ffffff;
+    border-bottom:solid 1px gray;
+    height:100px;
+    vertical-align:middle;
+}
+
+.article span.img{
+    width:60px;
+    height:100px;
+}
+
+.article span.img img{
+    width:60px;
+    height:100px;
+    object-fit: contain;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.articledetail .img {
+    margin:40px;
+}
+
+.articledetail .thumb .item{
+    float:left;
+    width:25%;
+}
+
+.articledetail .thumb .item img{
+    width:100%;
+}
+.articledetail .articlename {
+    margin: 8px 0px 4px 0px;
+}
+.articledetail .description{
+    padding:4px;
+}
+
+.articledetail h4.back {
+    padding-left:15px;
+    font-size:18px;
+}

@@ -1,0 +1,35 @@
+﻿<div class="scrollable articledetail" ng-click="console.log(25)" >
+    <h4 class="scrollable-header back"><a ng-href="#/articles/{{articleCtrl.categoryID}}/{{articleCtrl.objectID}}">< terug</a></h4>
+    <div class="scrollable-content">
+        <h4 class="articlename text-center">{{articleCtrl.article.specs['CONTENT'].value}}</h4>
+
+        <div class="text-center img">
+            <img  ng-src="{{host}}{{articleCtrl.article.specs['IMG'].value[0]}}" />
+        </div>
+
+        <div class="thumb">
+            <div class="item"  ng-repeat="(key, SKU) in articleCtrl.article.specs['IMG'].sku">
+                <img ng-click="articleCtrl.thmbClick(key)" ng-src="{{host}}{{SKU[0]}}" />              
+            </div>
+        </div>
+
+        <p class="description" ng-bind-html="articleCtrl.article.specs['beschrijving'].value"></p>
+
+        <span class="specdimension" ng-repeat="sku in articleCtrl.article.skuspecs">
+            {{sku}}
+           
+        </span>
+
+        <div class="row specdimension2" ng-repeat="skuitem in articleCtrl.article.skus | spechorizontal:12">
+            <span class="col-sm-3">Horizontaal</span>
+            <span class="col-sm-9">
+                <span class="specdimension2" ng-repeat="skuitem2 in articleCtrl.article.skus | specvertical:12:skuitem.specItem[12]">
+                    <input type="number" style="width:50px;" id="{{skuitem2.skuID}}" value="{{skuitem2.skuID}}" />
+                    {{skuitem2.specItem}}
+                </span>
+            </span>            
+        </div>
+
+    </div>
+</div>
+
